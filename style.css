@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0px;
 }
@@ -28,7 +27,7 @@
     border-radius: 8px;
 }
 .as1{text-align: center;
-    font-size: 25px;
+    /* font-size: 25px; */
 background-color: #2A4499;
 color: aliceblue;
 margin-top: 40px;
@@ -49,6 +48,11 @@ text-decoration: none;
 color: aliceblue;
 margin-top: 20px;
 }
+
+
+
+
+
 .asd1{
 display: flex;
 
@@ -65,12 +69,13 @@ margin-right: 80px;
 .button{
     background-color: #BB4F07;
     color: aliceblue;
-    margin-top: 20px;
+  border: 2px solid black;
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 8px;
+    padding-top: 15px;
     padding-bottom: 8px;
     border-radius: 12px;
+   
 }
 .asdf1{
     display: flex;
@@ -179,7 +184,7 @@ border-radius: 8px;
       
 }
 .i{
-    text-align: center;
+      text-align: center;
 }
 .f1{
     display: flex;
@@ -197,8 +202,73 @@ border-radius: 8px;
 }
 
 
-.Blog{
-
+.Blog{ margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
     border: 1px solid burlywood;
     margin-right: 1000px;
+}
+.Blog2 ,a {
+    justify-content: space-around;
+    color: #FD7E17;
+}
+.Blog3:hover{
+    border: 2px solid bisque;
+  background-color: #b95808; 
+  color: #efba8e;
+}
+
+.Contact{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}   
+.Contact1{
+
+    /* margin-right: 50px; */
+}
+.Contact2{
+    margin-right: 29px;
+ }
+.Contact3{
+height: 30px;
+width: 500px;
+}
+.Contact6{ 
+    background-color: #FD7E17;
+    height: 50px;
+    width:200px ;
+}
+.fix{
+    display: flex; 
+    justify-content: space-between;
+  text-align: center;
+margin-top: 200px;
+margin-bottom: 100px;
+
+}
+.fix1{ margin-left: 40px;
+    background-color: #FFFFFF; 
+    border: 2px solid #F5F7F9;
+    border-radius: 9px;
+    height: 100px;
+    width: 250px;
+}
+.fix2{
+    margin-right: 20px;
+    background-color: #FFFFFF; 
+    border: 2px solid #F5F7F9;
+    border-radius: 9px;
+    height: 100px;
+    width: 250px;
+}
+.fix3{
+    margin-right: 40px;
+    background-color: #FFFFFF; 
+    border: 2px solid #F5F7F9;
+    border-radius: 9px;
+    height: 100px;
+    width: 250px;
 }
